@@ -139,7 +139,7 @@ Instructions for Installing TBG_upscaler_Alfa_1.02p for ComfyUI
 
 
    You can use your API key in two ways:
-   - Paste it directly into the TBG Tiler node
+    Paste it directly into the TBG Tiler node
    - OR set an environment variable named: TBG_ETUR_API_KEY
       This will install the required packages from requirements.txt
       and download the model file: depth_anything_v2_vitl.pth
@@ -168,5 +168,37 @@ Do your setup and testing with PRO features turned OFF,
 and only enable them for the final steps of your workflow.
 
 Thank you for your support and happy tiling!
-— TBG 
+
+Just to clarifying the Originality of the TBG Tiled Upscaler CE and PRO Node, this node is not a mere bundle of third-party features—it embodies a completely new tiling concept developed, refined, and rigorously tested over countless hours of engineering and experimentation. Any external code it leverages is strictly minimal and used only where it made sense to avoid reinventing low-level utilities. Here’s exactly what was borrowed and why:
+- USDS Crop-Conditioning Node
+   Used solely for its crop-conditioning routine to generate per-tile conditioning masks.
+   All integration and per-tile looping logic around it was handcrafted.
+  https://github.com/ssitu/ComfyUI_UltimateSDUpscale
+- LLM Unload Model Function
+   Incorporated to correctly unload large language models between tile runs, preventing memory bloat.
+   The orchestration and tile-level invocation logic are original to this node.
+  https://github.com/willblaschko/ComfyUI-Unload-Models
+- MaraScott’s Tile Promter
+   With MaraScott’s explicit permission, their loader and setup code served as a starting scaffold.
+   Every tiling, scheduling, and upscaling mechanism was rewritten or heavily refactored.
+  https://github.com/MaraScott/ComfyUI_MaraScott_Nodes
+- KJ Nodes Color-Match Function
+   Employed for its robust color-matching algorithm.
+   Coded into the different tile to tile blendings and not as an one time final process so it had to stay inside the code.
+  https://github.com/kijai/ComfyUI-KJNodes
+- ImpactPack Segment Conversion
+   Utilized only to convert internal segment formats to the mask_to_seg format that any ImpactPack node can handel.
+   All tile segmentation, merging, and fusion logic is proprietary.
+  https://github.com/ltdrdata/ComfyUI-Impact-Pack
+- EnrichmentPipe Extension - FluxTopas RectifyFlowInversion
+   Brought in for its flow inversion routine; the per-tile applicator and boundary handling are homegrown.
+  https://github.com/logtd/ComfyUI-Fluxtapoz
+- EnrichmentPipe Extension - DeamonToles Detail Daemon Node
+   Integrated only for its detail_daemon_node implementation; And names if is.
+  https://github.com/daemontools/daemontools
+- ControlNet-Aux Code
+   Borrowed snippets to enable a per-tile ControlNet branch.
+   Crucially, the preprocessor and ControlNet model call within the tile loop are original and make per-tile CNet a much better experience.
+  https://github.com/Fannovel16/comfyui_controlnet_aux
+
 
