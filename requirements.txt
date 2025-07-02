@@ -7,5 +7,4 @@ color-matcher
 grog
 groq
 opencv-contrib-python
-color-matcher
 git+https://github.com/deepseek-ai/Janus.git
