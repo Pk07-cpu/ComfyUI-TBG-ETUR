@@ -227,6 +227,24 @@ clarification regarding any Embedded Component or its licensing, contact us
 before using, modifying, or distributing the Program.
 
 Except as stated in this Addendum, all terms of the TBG Enhanced Tiled Upscaler and
-Refiner Pro – Custom License (Version 2.0) remain in full force and effect.
+Refiner Pro – Custom License remain in full force and effect.
+
+Written Offer for Source Code
+
+This software distribution contains components licensed under a variety of terms, including but not limited to the GNU General Public License (GPL), version 3.
+Only those parts of this software that are explicitly licensed under the GPL are subject to the following offer.
+In accordance with Section 6 of the GPL, we hereby offer to provide the complete Corresponding Source Code for any and all components of this software that are covered by the GPLv3 license.
+This includes:
+- Original code in this distribution that is released under GPLv3.
+- Any third-party components included or linked into this software that are covered by the GPLv3.
+- Modifications made to GPL-covered software as part of this distribution.
+This offer does not apply to components or files in this distribution that are licensed under other terms and are not subject to the GNU GPL.
+To request the GPL-covered source code, please contact:
+tbg@ylab.es
+This offer is valid for a period of three (3) years from the date of distribution of the corresponding object code.
+The source code will be provided at no more than the cost of physical distribution (if any), and may also be made available electronically (e.g., via email or a downloadable link).
+For full details about your rights under the GNU General Public License, version 3, please visit:
+https://www.gnu.org/licenses/gpl-3.0.html
+
 
 End of License
