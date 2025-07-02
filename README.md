@@ -4,27 +4,7 @@
 Welcome to **TBG Enhanced Tiled Upscaler and Refiner Pro!**
 We at **TBG Think. Build. Generate. AI upscaling & image enrichment** are
 excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you
-for free non-commercial use. We believe in empowering creators and innovators,
-which is why anything you create or generate using our software is completely
-yours to use however you wish—including for commercial purposes!
-
-What This Means for You:
-Your creations are truly yours: Any images, outputs, or content you generate with
-our software can be used freely for personal projects, commercial ventures,
-selling, publishing, or any other purpose you have in mind.
-Free to use for personal and non-commercial purposes: You can use our Community
-Edition without any cost for personal projects, research, education, or hobby use.
-
-Important Limitations to Remember:
-- only for Comfyui with version Python 3.12
-While we want you to have maximum freedom with your creations, there are some
-important boundaries:
-- The software itself (not your outputs) is for non-commercial use only
-- You cannot modify, sell, or redistribute the software without our permission
-- The Pro Version requires API access authorization
-- This is alpha software, so use it at your own risk
-
-Check our license agreement.
+for free.
 
 # Alpha Testing of PRO Features Now Available
 
