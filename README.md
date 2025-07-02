@@ -14,7 +14,7 @@ for our Patreon supporters and free community members!
 Get early access by joining us at:
 https://www.patreon.com/TB_LAAR
 
-You must be a TB_LAAR Patreon supporter or free member to get an API key which you can get here:
+The CE (Community Edition) nodes are free and standalone, suitable for any type of workflow. For access to some PRO features, a TB_LAAR Patreon membership is required. The free version is sufficient for testing and experimenting. Once you become a member, you can obtain your API key:
 https://api.ylab.es/login.php 
 
 
