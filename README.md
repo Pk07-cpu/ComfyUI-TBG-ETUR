@@ -3,8 +3,7 @@
 
 Welcome to **TBG Enhanced Tiled Upscaler and Refiner Pro!**
 We at **TBG Think. Build. Generate. AI upscaling & image enrichment** are
-excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you
-for free.
+excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you.
 
 # Alpha Testing of PRO Features Now Available
 
