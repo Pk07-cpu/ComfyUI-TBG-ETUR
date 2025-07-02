@@ -102,7 +102,7 @@ Tiled generation now supports unlimited ControlNet inputs per tile, unlocking:
 
 
 
-Instructions for Installing TBG_upscaler_Alfa_1.02p for ComfyUI
+Instructions for Installing TBG_upscaler_Alfa_1.03 for ComfyUI
 --------------------------------------------------------------
 
 1. Copy the folder 'TBG_upscaler_Alfa_1.02p' into your ComfyUI custom_nodes directory:
