@@ -16,6 +16,7 @@ Free to use for personal and non-commercial purposes: You can use our Community
 Edition without any cost for personal projects, research, education, or hobby use.
 
 Important Limitations to Remember:
+- only for Comfyui with version Python 3.12
 While we want you to have maximum freedom with your creations, there are some
 important boundaries:
 - The software itself (not your outputs) is for non-commercial use only
