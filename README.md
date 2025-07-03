@@ -10,6 +10,9 @@ excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you
 We’re excited to announce that alpha testing of the PRO version is now live
 for our Patreon supporters and free community members!
 
+Please help us to find all Bugs and open an issue here !!!
+
+
 Get early access by joining us at:
 https://www.patreon.com/TB_LAAR
 
