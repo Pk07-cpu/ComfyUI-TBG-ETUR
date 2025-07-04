@@ -88,7 +88,7 @@ Tiled generation now supports unlimited ControlNet inputs per tile, unlocking:
 
 1. Clone into your ComfyUI custom nodes directory:
    
-   https://github.com/Ltamann/ComfyUI-TBG-ETUR/tree/main
+   [https://github.com/Ltamann/ComfyUI-TBG-ETUR/tree/main](https://github.com/Ltamann/ComfyUI-TBG-ETUR)
    
 
 2. Restart ComfyUI. Nodes will appear under the `TBG_Enhanced` category.
