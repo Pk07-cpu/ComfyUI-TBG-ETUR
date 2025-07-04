@@ -84,17 +84,6 @@ Tiled generation now supports unlimited ControlNet inputs per tile, unlocking:
 - Targeted structure, depth, edge, pose, or segmentation maps for each region  
 
 
-## Getting Started
-
-1. Clone into your ComfyUI custom nodes directory:
-   
-   [https://github.com/Ltamann/ComfyUI-TBG-ETUR/tree/main](https://github.com/Ltamann/ComfyUI-TBG-ETUR)
-   
-
-2. Restart ComfyUI. Nodes will appear under the `TBG_Enhanced` category.
-
-3. (Optional) Place the `flux_pro_refiner.safetensors` model into your `models/` folder if using FLUX PRO.
-
 ## Status and Roadmap
 
 - Fusion Techniques: Smart Merge, Tile Diffusion, NGTF  
@@ -106,39 +95,25 @@ Tiled generation now supports unlimited ControlNet inputs per tile, unlocking:
 
 Instructions for Installing TBG_upscaler_Alfa_1.03 for ComfyUI
 --------------------------------------------------------------
+1. Install this git from the Manager:
+   
+   [https://github.com/Ltamann/ComfyUI-TBG-ETUR](https://github.com/Ltamann/ComfyUI-TBG-ETUR)
 
-1. Copy the folder 'TBG_upscaler_Alfa_1.02p' into your ComfyUI custom_nodes directory:
+or Copy the folder 'ComfyUI-TBG-ETUR' into your ComfyUI custom_nodes directory:
    ..\ComfyUI\custom_nodes\
+   
+   and then:
 
-2. Open your ComfyUI Python environment and run the following command:
-   ..\ComfyUI\custom_nodes\TBG_upscaler_Alfa_1.02p\python -m install.py
+   pip install -r requirements.txt
 
-3. Get early access to PRO feachers by joining us at:
+
+2. If you like to test teh PRO feachers get early access by joining us at:
    https://www.patreon.com/TB_LAAR
 
    You must be a TB_LAAR Patreon supporter or free member to get an API key which you can get here:
    https://api.ylab.es/login.php 
-
-
-   You can use your API key in two ways:
-    Paste it directly into the TBG Tiler node
-   - OR set an environment variable named: TBG_ETUR_API_KEY
-      This will install the required packages from requirements.txt
-      and download the model file: depth_anything_v2_vitl.pth
-
---------------------------------------------------------------
-
-Alternative Manual Installation:
-
-1. Download the model file manually from:
-   https://huggingface.co/depth-anything/Depth-Anything-V2-Large/resolve/cbbb86a30ce19b5684b7a05155dc7e6cbc7685b9/depth_anything_v2_vitl.pth
-
-2. Copy the downloaded file to the following folder:
-   ..\ComfyUI\custom_nodes\TBG_upscaler_Alfa_1.02p\py\vendor\comfyui_controlnet_aux\ckpts\depth-anything\Depth-Anything-V2-Large
-
-3. Install the required Python packages by running:
-   ..\ComfyUI\custom_nodes\TBG_upscaler_Alfa_1.02p\python -m pip install -r requirements.txt
-
+   Paste it directly into the TBG Tiler node
+   
 --------------------------------------------------------------
 
 Important:
